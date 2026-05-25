@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: generate-qr-code
+
+aws:
+  region: us-east-1
+  endpoint: http://localhost:4566
+  access-key: test
+  secret-key: test
+  s3:
+    bucket: store-qr-code
